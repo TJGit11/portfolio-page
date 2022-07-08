@@ -1,21 +1,36 @@
 @media {}
 
-.navbar {
+#navbar {
     display: flex;
+    background-color: grey;
     justify-content: flex-end;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 
-    background-color: grey;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
 }
 
 .welcome-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: purple;
     width: 100%;
     height: 100vh;
-    background-color: green;
-    background-image: linear-gradient(62deg, cyan 0%, darkblue 100%)
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
 h1 {
