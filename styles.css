@@ -1,34 +1,25 @@
 @media {}
 
-.navbar {
+#navbar {
     display: flex;
     background-color: grey;
     justify-content: flex-end;
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 10;
-    padding: 10px;
-
 
 }
 
-/* ul {
+ul {
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
-} */
+}
 
 li {
     list-style: none;
     padding: 10px;
-    justify-content: flex-end;
-}
-
-.navlist {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
 }
 
 .welcome-section {
@@ -41,10 +32,6 @@ li {
     height: 100vh;
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-}
-
-section {
-    display: block;
 }
 
 h1 {
